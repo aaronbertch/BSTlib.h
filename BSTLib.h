@@ -157,7 +157,7 @@ node *insertNode(node *root, int value)
     }
 
     // If the value is already in the tree, do not add it
-    else{
+    else {
 
     } ;
 
@@ -285,10 +285,7 @@ node *maxNode(node *root)
     while(temp->right != NULL) {
         temp = temp->right;
     }
-
-
     return temp;
-
 }
 
 
